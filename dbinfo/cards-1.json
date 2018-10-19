@@ -73,115 +73,336 @@
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Green Arrow",
+  "image": "main/md_green_arrow.jpeg",
+  "cardtype": "Hero",
+  "cost": 5,
+  "victorypoints": 0,
+  "power": 2
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "High-Tech Hero",
+  "image": "main/md_high-tech_hero.jpeg",
+  "cardtype": "Hero",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 1 
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "J'onn J'onzz",
+  "image": "main/md_jonn_jonzz",
+  "cardtype": "Hero",
+  "cost": 2,
+  "victorypoints": 2,
+  "power": 0
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Kid Flash",
+  "image": "main/md_kid_flash.jpeg",
+  "cardtype": "Hero",
+  "cost": 2,
+  "victorypoints": 1,
+  "power": 0 
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "King of Atlantis",
+  "image": "main/md_king_of_atlantis.jpeg",
+  "cardtype": "Hero",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 1 
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Man of Steel",
+  "image": "main/md_man_of_steel.jpeg",
+  "cardtype": "Hero",
+  "cost": 8,
+  "victorypoints": 3,
+  "power": 3
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Mera",
+  "image": "main/md_mera.jpeg",
+  "cardtype": "Hero",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 2
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Princess Diana of Themyscira",
+  "image": "main/md_princess_diana_of_themyscira.jpeg",
+  "cardtype": "Hero",
+  "cost": 7,
+  "victorypoints": 2,
+  "power": 0
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Robin",
+  "image": "main/md_robin.jpeg",
+  "cardtype": "Hero",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 1
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Supergirl",
+  "image": "main/md_supergirl.jpeg",
+  "cardtype": "Hero",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 0 
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Swamp Thing",
+  "image": "main/md_swamp_thing.jpeg",
+  "cardtype": "Hero",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 2
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "The Fastest Man Alive",
+  "image": "main/md_the_fastest_man_alive.jpeg",
+  "cardtype": "Hero",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 0
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Zatanna Zatara",
+  "image": "main/md_zatanna_zatara.jpeg",
+  "cardtype": "Hero",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 1
 },
 
 {
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "cardname": "Bulletproof",
+  "image": "main/md_bulletproof.jpeg",
+  "cardtype": "Super Power",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 2
+},
+
+{
+  "cardname": "Heat Vision",
+  "image": "main/md_heat_vision.jpeg",
+  "cardtype": "Super Power",
+  "cost": 6,
+  "victorypoints": 2,
+  "power": 3 
+},
+
+{
+  "cardname": "Super Speed",
+  "image": "main/md_super_speed.jpeg",
+  "cardtype": "Super Power",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 0 
+},
+
+{
+  "cardname": "Super Strength",
+  "image": "main/md_super_strength.jpg",
+  "cardtype": "Super Power",
+  "cost": 7,
+  "victorypoints": 2,
+  "power": 5 
+},
+
+{
+  "cardname": "X-Ray Vision",
+  "image": "main/md_x-ray_vision.jpeg",
+  "cardtype": "Super Power",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "Arkham Asylum",
+  "image": "main/md_arkham_asylum.jpeg",
+  "cardtype": "Location",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "Fortress of Solitude",
+  "image": "main/md_fortress_of_solitude.jpeg",
+  "cardtype": "Location",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "The Batcave",
+  "image": "main/md_the_batcave.jpeg",
+  "cardtype": "Location",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "The Watchtower",
+  "image": "main/md_the_watchtower.jpeg",
+  "cardtype": "Location",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "Titans Tower",
+  "image": "main/md_titans_tower.jpeg",
+  "cardtype": "Location",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "Bane",
+  "image": "main/md_bane.jpeg",
+  "cardtype": "Villain",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 2 
+},
+
+{
+  "cardname": "Bizarro",
+  "image": "main/md_bizarro.jpeg",
+  "cardtype": "Villain",
+  "cost": 7,
+  "victorypoints": 0,
+  "power": 3 
+},
+
+{
+  "cardname": "Cheetah",
+  "image": "main/md_cheetah.jpeg",
+  "cardtype": "Villain",
+  "cost": 2,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "Clayface",
+  "image": "main/md_clayface.jpeg",
+  "cardtype": "Villain",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "Doomsday",
+  "image": "main/md_doomsday.jpeg",
+  "cardtype": "Villain",
+  "cost": 6,
+  "victorypoints": 2,
+  "power": 4 
+},
+
+{
+  "cardname": "Gorilla Grodd",
+  "image": "main/md_gorilla_grood.jpeg",
+  "cardtype": "Villain",
+  "cost": 5,
+  "victorypoints": 2,
+  "power": 3 
+},
+
+{
+  "cardname": "Harley Quinn",
+  "image": "main/md_harley_quinn.jpeg",
+  "cardtype": "Villain",
+  "cost": 2,
+  "victorypoints": 1,
+  "power": 1
+},
+
+{
+  "cardname": "Lobo",
+  "image": "main/md_lobo.jpeg",
+  "cardtype": "Villain",
+  "cost": 7,
+  "victorypoints": 2,
+  "power": 3
+},
+
+{
+  "cardname": "Poison Ivy",
+  "image": "main/md_posion_ivy.jpeg",
+  "cardtype": "Villain",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 1
+},
+
+{
+  "cardname": "Scarecrow",
+  "image": "main/md_scarecrow.jpeg",
+  "cardtype": "Villain",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 2
+},
+
+{
+  "cardname": "Solomon Grundy",
+  "image": "main/md_solomon_grundy.jpeg",
+  "cardtype": "Villain",
+  "cost": 6,
+  "victorypoints": 2,
+  "power": 3 
+},
+
+{
+  "cardname": "Starro",
+  "image": "main/md_starro.jpeg",
+  "cardtype": "Villain",
+  "cost": 7,
+  "victorypoints": 0,
+  "power": 4 
+},
+
+{
+  "cardname": "Suicide Squad",
+  "image": "main/md_suicide_squad.jpeg",
+  "cardtype": "Villain",
+  "cost": 4,
+  "victorypoints": 0,
+  "power": 2
+},
+
+{
+  "cardname": "The Penguin",
+  "image": "main/md_the_penguin.jpg",
+  "cardtype": "Villain",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 0
 }
 
 ]
