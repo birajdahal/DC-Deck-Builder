@@ -1,0 +1,179 @@
+[
+
+{
+  "cardname": "Kick",
+  "image": "other/ot_kick.jpeg",
+  "cardtype": "Super Power",
+  "cost": 3,
+  "victorypoints": 1
+},
+
+{
+  "cardname": "Punch",
+  "image": "other/ot_punch.jpeg",
+  "cardtype": "Starter",
+  "cost": 0,
+  "victorypoints": 0
+},
+
+{
+  "cardname": "Vulnerability",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+},
+
+{
+  "cardname": "",
+  "image": "",
+  "cardtype": "",
+  "cost": ,
+  "victorypoints": 
+}
+
+]
