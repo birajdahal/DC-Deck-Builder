@@ -6,6 +6,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -14,6 +15,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -22,6 +24,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -30,6 +33,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -38,6 +42,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -46,6 +51,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -54,6 +60,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -62,6 +69,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -70,6 +78,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -78,6 +87,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -86,6 +96,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -94,6 +105,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -102,6 +114,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -110,6 +123,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
+  "power":
 },
 
 {
@@ -118,38 +132,7 @@
   "cardtype": "",
   "cost": ,
   "victorypoints": 
-},
-
-{
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
-},
-
-{
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
-},
-
-{
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
-},
-
-{
-  "cardname": "",
-  "image": "",
-  "cardtype": "",
-  "cost": ,
-  "victorypoints": 
+  "power":
 }
 
 ]
