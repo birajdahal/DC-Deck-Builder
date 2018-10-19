@@ -403,6 +403,105 @@
   "cost": 3,
   "victorypoints": 1,
   "power": 0
+},
+
+{
+  "cardname": "The Riddler",
+  "image": "md_the_riddler",
+  "cardtype": "Villain",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 0
+},
+
+{
+  "cardname": "Two-Face",
+  "image": "main/md_two-face",
+  "cardtype": "Villain",
+  "cost": 2,
+  "victorypoints": 1,
+  "power": 1
+},
+
+{
+  "cardname": "Aquaman's Trident",
+  "image": "main/md_aquamans_trident",
+  "cardtype": "Equipment",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 2
+},
+
+{
+  "cardname": "Batmobile",
+  "image": "main/md_batmobile",
+  "cardtype": "Equipment",
+  "cost": 2,
+  "victorypoints": 1,
+  "power": 1
+},
+
+{
+  "cardname": "Green Arrow's Bow",
+  "image": "main/md_green_arrows_bow",
+  "cardtype": "Equipment",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 2
+},
+
+{
+  "cardname": "Lasso of Truth",
+  "image": "main/md_lasso_of_truth",
+  "cardtype": "Equipment",
+  "cost": 2,
+  "victorypoints": 1,
+  "power": 1
+},
+
+{
+  "cardname": "Nth Metal",
+  "image": "main/md_nth_metal",
+  "cardtype": "Equipment",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 1
+},
+
+{
+  "cardname": "Power Ring",
+  "image": "main/md_power_ring",
+  "cardtype": "Equipment",
+  "cost": 3,
+  "victorypoints": 1,
+  "power": 2
+},
+
+{
+  "cardname": "The Bat-Signal",
+  "image": "main/md_the_bat-signal",
+  "cardtype": "Equipment",
+  "cost": 5,
+  "victorypoints": 1,
+  "power": 1
+},
+
+{
+  "cardname": "The Cape and Cowl",
+  "image": "main/md_the_cape_and_cowl",
+  "cardtype": "Equipment",
+  "cost": 4,
+  "victorypoints": 1,
+  "power": 2
+},
+
+{
+  "cardname": "Utility Belt",
+  "image": "main/md_utility_belt.jpeg",
+  "cardtype": "Equipment",
+  "cost": 5,
+  "victorypoints": 0,
+  "power": 2
 }
 
 ]
