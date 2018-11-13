@@ -1,0 +1,119 @@
+Server Design
+
+Zones:
+  >Hand (per player)
+  >Deck (per player)
+  >Discard (per player)
+  >Main Deck
+  >Lineup
+  >Play area
+  >"Destroyed"
+
+
+Each player sees:
+  >My hand
+  >My deck (face down)
+  >My discard
+  >Their hand (face down)
+  >Their deck (face down)
+  >Their discard
+  >Lineup
+  >Play area
+
+
+Objects
+-------
+
+Board
+  -> Opponent Area
+    * Opponent Hand: int that describes how many cards are in opponent's hand 
+    * Opponnent SHero: SHero for the superhero the opponent has
+    * Opponent Deck: int that describes how many cards are in opponent's deck 
+    * Opponent Discard: ARRAY of Cards describing the player's discard pile 
+  -> Common Area
+    * Main Deck: int that desribes how many cards are in the main deck
+    * Cards to Buy
+      -> Lineup: ARRAY of Cards for the cards in the lineup 
+      -> Kicks: int that describes how many kicks are left
+      -> Supervillain: Card for the supervillain
+    * Cards Info
+      -> SuperVillains: int that describes how many supervillains are left
+      -> Weaknesses: int that describes how many weaknesses are left
+  -> Play Area
+    * Played cards: ARRAY of Cards for the cards played this turn
+    * Played info: ARRAY of ints describing information about the current turn
+  -> Player Area
+    * Hand: ARRAY of Cards for the cards in the player's hand
+    * SHero: SHero for the superhero the player has
+    * Deck: int that describes how many cards are in the player's deck
+    * Discard: ARRAY of Cards describing the player's discard pile
+    * Turn Buttons: ARRAY of Buttons for progression of turn
+  -> Info
+    * Log: ARRAY of Events describing the plays in the current game
+    * Settings (will contain info, quit, etc.)
+
+
+Event - object that describes any event that occurs in the game
+  -> Automatic Event - an event that occurs by the rules
+  -> Player Event - an event that occurs by player input. These can be undone
+
+Card - object that describes a specific card
+  -> Name
+  -> Type
+  -> VP
+  -> Power
+  -> Effect
+
+******************
+
+Player turn
+
+1. Play Phase. These can be done any number of times in any order.
+  a) Player may play a card from their hand. Hand -> Playstack
+    i. Resolve card
+   ii. Resolve consequences of that card (e.g. cards played from that card)
+  iii. Resolve ongoing effects
+
+  b) Player may buy a card from the CardsToBuy. CardsToBuy -> Discard
+    i. Resolve effects when card is bought
+   ii. Resolve ongoing effects
+
+  c) Player can activate an effect (e.g. attack)
+    i. Resolve effect
+   ii. Resolve consequences of that effect
+  iii. Resolve ongoing effects
+
+  d) Player can end their turn
+    i. End the Play Phase 
+
+
+2. Cleanup Phase
+  a) Resolve effects that occur at the end of the turn.
+
+  b) Move cards from play stack to the correct locations (playstack -> opponentDeck, playstack -> discard, playstack -> opponentDiscard, etc.)
+
+  c) Refill lineup
+
+  d) Reset power
+
+3. Drawing Phase
+  a) Turn player draws up to their draw amount (5, might be higher depending on effects)
+
+4. Supervillain Phase
+  a) Reveal new supervillain
+  b) Resolve effect of that supervillain (first apperance attack)
+
+******************
+
+Moves
+
+Refill: Main deck -> Lineup
+Draw: Deck -> Hand
+Play: Hand -> Play area
+Buy: 
+  * Lineup -> Discard
+  * Kicks -> Discard
+  * Supervillain -> Discard
+  (special)
+  * Lineup/Kick/Sv -> Deck
+  * Main Deck -> Deck
