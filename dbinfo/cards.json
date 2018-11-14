@@ -249,7 +249,8 @@
   "cardtype": "Location",
   "cost": 5,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 1 
 },
 
 {
@@ -258,7 +259,8 @@
   "cardtype": "Location",
   "cost": 5,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 1 
 },
 
 {
@@ -267,7 +269,8 @@
   "cardtype": "Location",
   "cost": 5,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 1 
 },
 
 {
@@ -276,7 +279,8 @@
   "cardtype": "Location",
   "cost": 5,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 1 
 },
 
 {
@@ -285,7 +289,8 @@
   "cardtype": "Villain",
   "cost": 4,
   "victorypoints": 1,
-  "power": 2 
+  "power": 2, 
+  "count": 2 
 },
 
 {
@@ -294,7 +299,8 @@
   "cardtype": "Villain",
   "cost": 7,
   "victorypoints": 0,
-  "power": 3 
+  "power": 3,
+  "count": 1 
 },
 
 {
@@ -303,7 +309,8 @@
   "cardtype": "Villain",
   "cost": 2,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 2 
 },
 
 {
@@ -312,7 +319,8 @@
   "cardtype": "Villain",
   "cost": 4,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 2 
 },
 
 {
@@ -321,7 +329,8 @@
   "cardtype": "Villain",
   "cost": 6,
   "victorypoints": 2,
-  "power": 4 
+  "power": 4,
+  "count": 2 
 },
 
 {
@@ -330,7 +339,8 @@
   "cardtype": "Villain",
   "cost": 5,
   "victorypoints": 2,
-  "power": 3 
+  "power": 3, 
+  "count": 2 
 },
 
 {
@@ -339,7 +349,8 @@
   "cardtype": "Villain",
   "cost": 2,
   "victorypoints": 1,
-  "power": 1
+  "power": 1,
+  "count": 2 
 },
 
 {
@@ -348,7 +359,8 @@
   "cardtype": "Villain",
   "cost": 7,
   "victorypoints": 2,
-  "power": 3
+  "power": 3,
+  "count": 1 
 },
 
 {
@@ -357,7 +369,8 @@
   "cardtype": "Villain",
   "cost": 3,
   "victorypoints": 1,
-  "power": 1
+  "power": 1,
+  "count": 2 
 },
 
 {
@@ -366,7 +379,8 @@
   "cardtype": "Villain",
   "cost": 5,
   "victorypoints": 1,
-  "power": 2
+  "power": 2,
+  "count": 2 
 },
 
 {
@@ -375,7 +389,8 @@
   "cardtype": "Villain",
   "cost": 6,
   "victorypoints": 2,
-  "power": 3 
+  "power": 3,
+  "count": 2 
 },
 
 {
@@ -384,7 +399,8 @@
   "cardtype": "Villain",
   "cost": 7,
   "victorypoints": 0,
-  "power": 4 
+  "power": 4, 
+  "count": 2 
 },
 
 {
@@ -393,7 +409,8 @@
   "cardtype": "Villain",
   "cost": 4,
   "victorypoints": 0,
-  "power": 2
+  "power": 2,
+  "count": 6 
 },
 
 {
@@ -402,7 +419,8 @@
   "cardtype": "Villain",
   "cost": 3,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 2 
 },
 
 {
@@ -411,7 +429,8 @@
   "cardtype": "Villain",
   "cost": 3,
   "victorypoints": 1,
-  "power": 0
+  "power": 0,
+  "count": 2 
 },
 
 {
@@ -420,7 +439,8 @@
   "cardtype": "Villain",
   "cost": 2,
   "victorypoints": 1,
-  "power": 1
+  "power": 1,
+  "count": 2 
 },
 
 {
@@ -429,7 +449,8 @@
   "cardtype": "Equipment",
   "cost": 3,
   "victorypoints": 1,
-  "power": 2
+  "power": 2,
+  "count": 3 
 },
 
 {
@@ -438,7 +459,8 @@
   "cardtype": "Equipment",
   "cost": 2,
   "victorypoints": 1,
-  "power": 1
+  "power": 1,
+  "count": 3 
 },
 
 {
@@ -447,7 +469,8 @@
   "cardtype": "Equipment",
   "cost": 4,
   "victorypoints": 1,
-  "power": 2
+  "power": 2,
+  "count": 3 
 },
 
 {
@@ -456,7 +479,8 @@
   "cardtype": "Equipment",
   "cost": 2,
   "victorypoints": 1,
-  "power": 1
+  "power": 1,
+  "count": 3 
 },
 
 {
@@ -465,7 +489,8 @@
   "cardtype": "Equipment",
   "cost": 3,
   "victorypoints": 1,
-  "power": 1
+  "power": 1,
+  "count": 4 
 },
 
 {
@@ -474,7 +499,8 @@
   "cardtype": "Equipment",
   "cost": 3,
   "victorypoints": 1,
-  "power": 2
+  "power": 2,
+  "count": 3 
 },
 
 {
@@ -483,7 +509,8 @@
   "cardtype": "Equipment",
   "cost": 5,
   "victorypoints": 1,
-  "power": 1
+  "power": 1,
+  "count": 3 
 },
 
 {
@@ -492,7 +519,8 @@
   "cardtype": "Equipment",
   "cost": 4,
   "victorypoints": 1,
-  "power": 2
+  "power": 2,
+  "count": 3 
 },
 
 {
@@ -501,7 +529,8 @@
   "cardtype": "Equipment",
   "cost": 5,
   "victorypoints": 0,
-  "power": 2
+  "power": 2,
+  "count": 3 
 }
 
 ]
