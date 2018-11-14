@@ -60,7 +60,9 @@ class Bank {
     for(let i = 0; i < this.cardRows.length; i++) {
       if(this.cardRows[i].cardname != "Kick" && this.cardRows[i].cardtype != "Other" && this.cardRows[i].cardtype != "Starter" && this.cardRows[i].cardtype != "Super Villain") {
 
-        deck.push(this.cardRows[i].cardname);
+        for(let j = 0; j < this.cardRows[i].count; j++) {
+          deck.push(this.cardRows[i].cardname);
+        }
       }
     }
 

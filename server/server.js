@@ -25,7 +25,7 @@ client.query("SELECT * FROM CARDS", (err, res) => {
 
   game.startGame(0);
 
-  for(let turn = 0; turn < 200; turn++) {
+  for(let turn = 0; turn < 5; turn++) {
   
   for(let i = 0; i < 5; i++) {
     bob.playCard(0);

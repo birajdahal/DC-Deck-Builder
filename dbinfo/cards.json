@@ -5,7 +5,8 @@
   "cardtype": "Super Power",
   "cost": 3,
   "victorypoints": 1,
-  "power": 2
+  "power": 2,
+  "count": 0
 },
 
 {
@@ -14,7 +15,8 @@
   "cardtype": "Starter",
   "cost": 0,
   "victorypoints": 0,
-  "power": 1
+  "power": 1,
+  "count": 0
 },
 
 {
@@ -23,7 +25,8 @@
   "cardtype": "Starter",
   "cost": 0,
   "victorypoints": 0,
-  "power": 0
+  "power": 0,
+  "count": 0
 },
 
 {
@@ -32,7 +35,8 @@
   "cardtype": "Other",
   "cost": 0,
   "victorypoints": -1,
-  "power": 0
+  "power": 0,
+  "count": 0
 },
 
 {
