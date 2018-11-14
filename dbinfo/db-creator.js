@@ -15,7 +15,7 @@ const client = new Client({
 client.connect()
 
 dbInfo.forEach(card => {
-  let q = "INSERT INTO cards (cardname, image, cardtype, cost, victorypoints, power) VALUES ('" + card.cardname + "', '" + card.image + "', '" + card.cardtype + "', " + card.cost + ", " + card.victorypoints + ", " + card.power + ")"; 
+  let q = "INSERT INTO cards (cardname, image, cardtype, cost, victorypoints, power, count) VALUES ('" + card.cardname + "', '" + card.image + "', '" + card.cardtype + "', " + card.cost + ", " + card.victorypoints + ", " + card.power + ", " + card.count + ")"; 
   
   client.query(q, (err, res) => {
     console.log(q)
