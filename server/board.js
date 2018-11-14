@@ -162,6 +162,8 @@ class Game {
 
     this.players[this.turn].turn = 1;
     this.players[1 - this.turn].turn = 0;
+
+    console.log("\n***Turn shifted from player " + this.players[1-this.turn].id + " to player " + this.players[this.turn].id + "***\n")
   }
 
   playCard(card) {
