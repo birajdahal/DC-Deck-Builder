@@ -15,10 +15,12 @@ const client = new Client({
 client.connect()
 
 dbInfo.forEach(card => {
-  let q = "INSERT INTO cards (cardname, image, cardtype, cost, victorypoints, power, count) VALUES ('" + card.cardname + "', '" + card.image + "', '" + card.cardtype + "', " + card.cost + ", " + card.victorypoints + ", " + card.power + ", " + card.count + ")"; 
+  let url = "http://www.nrdfeed.com/dcdb/scans/" + card.cardname + ".jpeg";
+
+  let q = "INSERT INTO cards (cardname, image, cardtype, cost, victorypoints, power, count, url) VALUES ('" + card.cardname + "', '" + card.image + "', '" + card.cardtype + "', " + card.cost + ", " + card.victorypoints + ", " + card.power + ", " + card.count + ", '" + url + "')"; 
   
   client.query(q, (err, res) => {
     console.log(q)
     console.log(err, res);
   });
-});
+})

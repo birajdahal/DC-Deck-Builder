@@ -117,3 +117,6 @@ Buy:
   (special)
   * Lineup/Kick/Sv -> Deck
   * Main Deck -> Deck
+New Supervillain: Supervillain Stack -> Supervillain
+
+******************

@@ -1,4 +1,5 @@
 [
+
 {
   "cardname": "Kick",
   "image": "other/ot_kick.jpeg",
@@ -550,13 +551,113 @@
 },
 
 {
-  "cardname": "Utility Belt",
-  "image": "main/md_utility_belt.jpeg",
-  "cardtype": "Equipment",
-  "cost": 5,
-  "victorypoints": 0,
+  "cardname": "Atrocitus",
+  "image": "villains/sv_atrocitus.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 10,
+  "victorypoints": 5,
   "power": 2,
-  "count": 3 
+  "count": 1 
+},
+
+{
+  "cardname": "Black Manta",
+  "image": "villains/sv_black_manta.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 8,
+  "victorypoints": 4,
+  "power": 3,
+  "count": 1 
+},
+
+{
+  "cardname": "Braniac",
+  "image": "villains/sv_braniac.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 11,
+  "victorypoints": 6,
+  "power": 0,
+  "count": 1 
+},
+
+{
+  "cardname": "Captain Cold",
+  "image": "villains/sv_captain_cold.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 9,
+  "victorypoints": 5,
+  "power": 2,
+  "count": 1 
+},
+
+{
+  "cardname": "Darkseid",
+  "image": "villains/sv_darkseid.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 11,
+  "victorypoints": 6,
+  "power": 0,
+  "count": 1 
+},
+
+{
+  "cardname": "Lex Luthor",
+  "image": "villains/sv_lex_luthor.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 10,
+  "victorypoints": 5,
+  "power": 0,
+  "count": 1 
+},
+
+{
+  "cardname": "Parallax",
+  "image": "villains/sv_parallax.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 12,
+  "victorypoints": 6,
+  "power": 0,
+  "count": 1 
+},
+
+{
+  "cardname": "Ras Al Ghul",
+  "image": "villains/sv_ras_al_ghul.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 8,
+  "victorypoints": 4,
+  "power": 3,
+  "count": 1 
+},
+
+{
+  "cardname": "Sinestro",
+  "image": "villains/sv_sinestro.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 10,
+  "victorypoints": 5,
+  "power": 0,
+  "count": 1 
+},
+
+{
+  "cardname": "The Anti-Monitor",
+  "image": "villains/sv_the_anti-monitor.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 12,
+  "victorypoints": 6,
+  "power": 2,
+  "count": 1 
+},
+
+{
+  "cardname": "The Joker",
+  "image": "villains/sv_the_joker.jpeg",
+  "cardtype": "Super-Villain",
+  "cost": 10,
+  "victorypoints": 5,
+  "power": 2,
+  "count": 1 
 }
 
 ]

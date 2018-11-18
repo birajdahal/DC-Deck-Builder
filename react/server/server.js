@@ -2,9 +2,7 @@ const { Client } = require('pg');
 const DC = require('./board');
 const fs = require('fs')
  
-const dbInfo = require('../dbinfo/cards.json');
-
-const pass = fs.readFileSync('../dbinfo/password.txt').toString().trim()
+const pass = fs.readFileSync('../../dbinfo/password.txt').toString().trim();
 
 const client = new Client({
   user: 'postgres',
@@ -13,7 +11,7 @@ const client = new Client({
   password: pass
 });
 
-client.connect()
+client.connect();
 
 client.query("SELECT * FROM CARDS", (err, res) => {
   let bank = new DC.Bank(res.rows);
@@ -25,7 +23,7 @@ client.query("SELECT * FROM CARDS", (err, res) => {
 
   game.startGame(0);
 
-  for(let turn = 0; turn < 5; turn++) {
+  for(let turn = 0; turn < 1; turn++) {
   
   for(let i = 0; i < 5; i++) {
     bob.playCard(0);

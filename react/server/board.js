@@ -24,14 +24,6 @@ class SHero {
   }
 }
 
-class Buttons {
-
-}
-
-class Events {
-
-}
-
 class Bank {
   constructor(cardRows) {
     this.cardRows = cardRows;
@@ -58,7 +50,7 @@ class Bank {
     let deck = [];
 
     for(let i = 0; i < this.cardRows.length; i++) {
-      if(this.cardRows[i].cardname != "Kick" && this.cardRows[i].cardtype != "Other" && this.cardRows[i].cardtype != "Starter" && this.cardRows[i].cardtype != "Super Villain") {
+      if(this.cardRows[i].cardname != "Kick" && this.cardRows[i].cardtype != "Other" && this.cardRows[i].cardtype != "Starter" && this.cardRows[i].cardtype != "Super-Villain") {
 
         for(let j = 0; j < this.cardRows[i].count; j++) {
           deck.push(this.cardRows[i].cardname);
@@ -70,7 +62,15 @@ class Bank {
   }
 
   getStartVillains() {
-    return null;
+    let stack = [];
+
+    for(let i = 0; i < this.cardRows.length; i++) {
+      if(this.cardRows[i].cardtype == "Super-Villain" && this.cardRows[i].cardname != "Ras Al Ghul") {
+        stack.push(this.cardRows[i].cardname);
+      } 
+    }
+
+    return stack;
   }
 }
 
@@ -83,9 +83,9 @@ class Game {
 
     this.lineup = [];
     this.kicks = 16;
-    this.supervillain = "rasalghul";
+    this.supervillain = "Ras Al Ghul";
 
-    this.supervillains = [];
+    this.supervillains = bank.startVillains;
     this.weaknesses = 20;
     
     this.playedCards = [];
@@ -105,6 +105,7 @@ class Game {
 
     // handle stuff at the beginning of every game
     shuffle(this.mainDeck);
+    shuffle(this.supervillains);
 
     for(let i = 0; i < 5; i++) { 
       this.refill();
@@ -124,6 +125,17 @@ class Game {
     this.lineup.push(card);
     
     console.log("Refilling " + card + " (main deck -> lineup)");
+  }
+
+  newSupervillain() {
+    if(this.supervillain != undefined) {
+      console.log("ERROR! TRIED TO ADD NEW SUPERVILLAIN BUT OLD SUPERVILLAIN EXISTS");
+      return;
+    }  
+
+    this.supervillain = this.supervillains.pop();
+
+    console.log("New Supervillain added: " + sv);
   }
 
   endTurn() {
@@ -151,13 +163,16 @@ class Game {
     for(let i = this.lineup.length; i < 5; i++) {
       this.refill();
     }
-    console.log(this.lineup);
-    console.log(this.mainDeck.length);
 
     this.turnInfo.power = 0;
 
     // drawing phase
     this.players[this.turn].drawHand();
+
+    // supervillain
+    if(this.supervillain == undefined) {
+      this.newSuperVillain();
+    }
 
     // change players
     this.turn = 1 - this.turn;
@@ -166,6 +181,10 @@ class Game {
     this.players[1 - this.turn].turn = 0;
 
     console.log("\n***Turn shifted from player " + this.players[1-this.turn].id + " to player " + this.players[this.turn].id + "***\n")
+
+    console.log(this.lineup);
+    console.log("SV: ", this.supervillain);
+    console.log(this.mainDeck.length);
   }
 
   playCard(card) {
@@ -227,6 +246,31 @@ class Game {
         this.players[this.turn].discard.push("Kick");
 
         console.log("Kick was moved from kick stack to " + this.players[this.turn].id + " discard pile");
+
+        break;
+
+
+      case "super-villain":
+        if(this.supervillain == undefined) {
+          console.log("ERROR! TRIED TO BUY SUPERVILLAIN BUT THERE IS NONE");
+          return;
+        } 
+
+        let villainCost = this.bank.cards[this.supervillain].cost;
+
+        if(this.tunInfo.power < villainCost) {
+          console.log("Tried to buy " + this.supervillain + " but cost of " + villainCost + " is higher than current power of " + this.turnInfo.power);
+          return;
+        } 
+
+        this.turnInfo -= villainCost;
+          
+
+        this.players[this.turn].discard.push(this.supervillain);
+
+        console.log("Supervillain " + this.supervillain + " with cost of " + villainCost + " was bought from the lineup to " + this.players[this.turn].id + " discard pile");
+
+        this.supervillain = undefined;
 
         break;
 
@@ -311,19 +355,6 @@ class Player {
   buyCard(loc, number) {
     console.log("\nPlayer " + this.id + " attempted to buy from " + loc + ", number " + number); 
     this.game.buyCard(loc, number);
-
-    switch(loc) {
-      case "lineup":
-        
-        break;
-
-      case "kicks":
-
-        break;
-
-      default:
-        console.log("NOT CODED YET!!");
-    }
   }
 
   endTurn() {

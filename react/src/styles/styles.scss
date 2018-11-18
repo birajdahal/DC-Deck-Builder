@@ -1,0 +1,193 @@
+html, body, #app {
+  font-family: proxima-nova, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  height: 100%;
+
+  display: flex;
+  background-color: green;
+
+  #log {
+    background-color: red;
+    width: 15vw;
+
+    #bigCard {
+      background-color: black;
+      height: 46vh;
+
+      img {
+        height: 46vh;
+      }
+    }
+
+    #text {
+    
+    }
+  }
+
+  #game {
+    background-color: blue;
+    width: 85vw;
+    min-width: 5em;
+
+    display: flex;
+    flex-direction: column;
+
+    #opponent {
+      height: 15vh;
+      background-color: black;
+
+      display: flex;
+
+      #opponentHand {
+        display: flex;
+        width: 70vw;
+        background-color: green;
+      }
+
+      #opponentSHero {
+        display: flex;
+      }
+
+      #opponentDeck {
+        display: flex;
+      }
+
+      #opponentDiscard {
+        display: flex;
+      }
+    }
+
+    #common {
+      height: 25vh;
+      background-color: silver;
+
+      display: flex;
+
+      #maindeck {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #buy {
+        display: flex;
+
+        #buycards {
+          display: flex;
+
+          #lineup {
+            display: flex;
+          }
+
+          #kicks {
+            display: flex;
+            margin-left: 20px;
+          }
+        }
+
+        #supervillain {
+          display: flex;
+        }
+      }
+
+      #info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .counter {
+          display: flex;
+          align-items: center;
+
+          .icon {
+            width: 3vw;
+            height: 3vw;
+
+            background-color: red;
+            border: 1px solid black;
+            margin: 5px;
+          }
+        } 
+      }
+    }
+
+    #play {
+      height: 25vh;
+      background-color: purple;
+
+      display: flex;
+      align-items: center;
+
+      #playedcards {
+        display: flex; 
+      }
+
+    }
+
+    #player {
+      height: 35vh;
+      background-color: yellow;
+
+      display: flex;
+      flex-direction: column;
+
+      #top {
+        border: 1px solid black;
+        flex: 1;
+
+        display: flex;
+        align-items: center;
+
+        #turnbuttons {
+          display: flex;
+          width: 70vw;
+        }
+
+        #playerstacks {
+          display: flex;
+        }
+      }
+
+      #bottom {
+        border: 1px solid black;
+        flex: 1;
+
+        display: flex;
+        align-items: center;
+
+        #hand {
+          display: flex;
+        }
+      }
+
+    }
+  }
+}
+
+.card, .discard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5px 0 5px;
+
+  .cardimg {
+    width: 4.5vw;
+  }
+
+  .discardimg {
+    width: 4.5vw;
+  }
+
+  .deckimg {
+    width: 4.5vw;
+  }
+
+  .stackimg {
+    width: 4.5vw;
+  }
+}
